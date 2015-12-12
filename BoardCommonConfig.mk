@@ -171,5 +171,10 @@ BOARD_HAL_STATIC_LIBRARIES := libhealthd.exynos4
 # LPM Battery Percentage
 BOARD_CHARGER_SHOW_PERCENTAGE := true
 
+# Toolchain Flags
+TARGET_VRTOXIN_ROM := 4.9
+TARGET_NDK_VRTOXIN_ROM := 4.9
+TARGET_VRTOXIN_ARM := 4.8
+
 # inherit from the proprietary version
 -include vendor/samsung/smdk4412-common/BoardConfigVendor.mk
